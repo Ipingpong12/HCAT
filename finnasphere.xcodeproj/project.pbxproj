@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D82DABF20A1C2B50015B4AB /* finnamenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D82DABE20A1C2B50015B4AB /* finnamenu.swift */; };
+		1DA0A96820A32FB000060EFF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1DA0A96720A32FB000060EFF /* Info.plist */; };
+		1DB2797D20A338A000EE17AF /* GameSceneLaby.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1DB2797C20A338A000EE17AF /* GameSceneLaby.sks */; };
+		1DB2797F20A339CE00EE17AF /* GameSceneLaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2797E20A339CE00EE17AF /* GameSceneLaby.swift */; };
+		1DB2798120A33BFD00EE17AF /* LabyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB2798020A33BFD00EE17AF /* LabyViewController.swift */; };
+		1DBC8EDD209FEC0100F5D5F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC8EDC209FEC0100F5D5F0 /* AppDelegate.swift */; };
+		1DBC8EDF209FEC0100F5D5F0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC8EDE209FEC0100F5D5F0 /* GameScene.sks */; };
+		1DBC8EE1209FEC0100F5D5F0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC8EE0209FEC0100F5D5F0 /* Actions.sks */; };
+		1DBC8EE3209FEC0100F5D5F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC8EE2209FEC0100F5D5F0 /* GameScene.swift */; };
+		1DBC8EE5209FEC0100F5D5F0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC8EE4209FEC0100F5D5F0 /* GameViewController.swift */; };
+		1DBC8EE8209FEC0100F5D5F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC8EE6209FEC0100F5D5F0 /* Main.storyboard */; };
+		1DBC8EEA209FEC0100F5D5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC8EE9209FEC0100F5D5F0 /* Assets.xcassets */; };
+		1DBC8EED209FEC0100F5D5F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DBC8EEB209FEC0100F5D5F0 /* LaunchScreen.storyboard */; };
+		1DBC8EF8209FEC0100F5D5F0 /* FinnaSphereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC8EF7209FEC0100F5D5F0 /* FinnaSphereTests.swift */; };
+		1DBC8F03209FEC0100F5D5F0 /* FinnaSphereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBC8F02209FEC0100F5D5F0 /* FinnaSphereUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1DBC8EF4209FEC0100F5D5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBC8ED1209FEC0100F5D5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DBC8ED8209FEC0100F5D5F0;
+			remoteInfo = FinnaSphere;
+		};
+		1DBC8EFF209FEC0100F5D5F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DBC8ED1209FEC0100F5D5F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1DBC8ED8209FEC0100F5D5F0;
+			remoteInfo = FinnaSphere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D82DABE20A1C2B50015B4AB /* finnamenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finnamenu.swift; sourceTree = "<group>"; };
+		1DA0A96720A32FB000060EFF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB2797C20A338A000EE17AF /* GameSceneLaby.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameSceneLaby.sks; sourceTree = "<group>"; };
+		1DB2797E20A339CE00EE17AF /* GameSceneLaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSceneLaby.swift; sourceTree = "<group>"; };
+		1DB2798020A33BFD00EE17AF /* LabyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabyViewController.swift; sourceTree = "<group>"; };
+		1DBC8ED9209FEC0100F5D5F0 /* FinnaSphere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinnaSphere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBC8EDC209FEC0100F5D5F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1DBC8EDE209FEC0100F5D5F0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1DBC8EE0209FEC0100F5D5F0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		1DBC8EE2209FEC0100F5D5F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1DBC8EE4209FEC0100F5D5F0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1DBC8EE7209FEC0100F5D5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1DBC8EE9209FEC0100F5D5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1DBC8EEC209FEC0100F5D5F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1DBC8EF3209FEC0100F5D5F0 /* FinnaSphereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnaSphereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBC8EF7209FEC0100F5D5F0 /* FinnaSphereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnaSphereTests.swift; sourceTree = "<group>"; };
+		1DBC8EF9209FEC0100F5D5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DBC8EFE209FEC0100F5D5F0 /* FinnaSphereUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinnaSphereUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DBC8F02209FEC0100F5D5F0 /* FinnaSphereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinnaSphereUITests.swift; sourceTree = "<group>"; };
+		1DBC8F04209FEC0100F5D5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1DBC8ED6209FEC0100F5D5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC8EF0209FEC0100F5D5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC8EFB209FEC0100F5D5F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D08A9CB20A3A95B00525F03 /* Labyrinth */ = {
+			isa = PBXGroup;
+			children = (
+				1DB2798020A33BFD00EE17AF /* LabyViewController.swift */,
+				1DB2797E20A339CE00EE17AF /* GameSceneLaby.swift */,
+				1DB2797C20A338A000EE17AF /* GameSceneLaby.sks */,
+			);
+			path = Labyrinth;
+			sourceTree = "<group>";
+		};
+		1DBB5B3820A29749004F2C7B /* pong */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC8EE4209FEC0100F5D5F0 /* GameViewController.swift */,
+				1DBC8EE2209FEC0100F5D5F0 /* GameScene.swift */,
+				1DBC8EDE209FEC0100F5D5F0 /* GameScene.sks */,
+			);
+			path = pong;
+			sourceTree = "<group>";
+		};
+		1DBC8ED0209FEC0100F5D5F0 = {
+			isa = PBXGroup;
+			children = (
+				1DA0A96720A32FB000060EFF /* Info.plist */,
+				1DBC8EE9209FEC0100F5D5F0 /* Assets.xcassets */,
+				1D08A9CB20A3A95B00525F03 /* Labyrinth */,
+				1DBB5B3820A29749004F2C7B /* pong */,
+				1DBC8EDB209FEC0100F5D5F0 /* FinnaSphere */,
+				1DBC8EF6209FEC0100F5D5F0 /* FinnaSphereTests */,
+				1DBC8F01209FEC0100F5D5F0 /* FinnaSphereUITests */,
+				1DBC8EDA209FEC0100F5D5F0 /* Products */,
+				1DBC8EDC209FEC0100F5D5F0 /* AppDelegate.swift */,
+				1DBC8EE0209FEC0100F5D5F0 /* Actions.sks */,
+				1DBC8EEB209FEC0100F5D5F0 /* LaunchScreen.storyboard */,
+				1DBC8EE6209FEC0100F5D5F0 /* Main.storyboard */,
+				1D82DABE20A1C2B50015B4AB /* finnamenu.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		1DBC8EDA209FEC0100F5D5F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC8ED9209FEC0100F5D5F0 /* FinnaSphere.app */,
+				1DBC8EF3209FEC0100F5D5F0 /* FinnaSphereTests.xctest */,
+				1DBC8EFE209FEC0100F5D5F0 /* FinnaSphereUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1DBC8EDB209FEC0100F5D5F0 /* FinnaSphere */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FinnaSphere;
+			sourceTree = "<group>";
+		};
+		1DBC8EF6209FEC0100F5D5F0 /* FinnaSphereTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC8EF7209FEC0100F5D5F0 /* FinnaSphereTests.swift */,
+				1DBC8EF9209FEC0100F5D5F0 /* Info.plist */,
+			);
+			path = FinnaSphereTests;
+			sourceTree = "<group>";
+		};
+		1DBC8F01209FEC0100F5D5F0 /* FinnaSphereUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1DBC8F02209FEC0100F5D5F0 /* FinnaSphereUITests.swift */,
+				1DBC8F04209FEC0100F5D5F0 /* Info.plist */,
+			);
+			path = FinnaSphereUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1DBC8ED8209FEC0100F5D5F0 /* FinnaSphere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC8F07209FEC0100F5D5F0 /* Build configuration list for PBXNativeTarget "FinnaSphere" */;
+			buildPhases = (
+				1DBC8ED5209FEC0100F5D5F0 /* Sources */,
+				1DBC8ED6209FEC0100F5D5F0 /* Frameworks */,
+				1DBC8ED7209FEC0100F5D5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinnaSphere;
+			productName = FinnaSphere;
+			productReference = 1DBC8ED9209FEC0100F5D5F0 /* FinnaSphere.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1DBC8EF2209FEC0100F5D5F0 /* FinnaSphereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC8F0A209FEC0100F5D5F0 /* Build configuration list for PBXNativeTarget "FinnaSphereTests" */;
+			buildPhases = (
+				1DBC8EEF209FEC0100F5D5F0 /* Sources */,
+				1DBC8EF0209FEC0100F5D5F0 /* Frameworks */,
+				1DBC8EF1209FEC0100F5D5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBC8EF5209FEC0100F5D5F0 /* PBXTargetDependency */,
+			);
+			name = FinnaSphereTests;
+			productName = FinnaSphereTests;
+			productReference = 1DBC8EF3209FEC0100F5D5F0 /* FinnaSphereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1DBC8EFD209FEC0100F5D5F0 /* FinnaSphereUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DBC8F0D209FEC0100F5D5F0 /* Build configuration list for PBXNativeTarget "FinnaSphereUITests" */;
+			buildPhases = (
+				1DBC8EFA209FEC0100F5D5F0 /* Sources */,
+				1DBC8EFB209FEC0100F5D5F0 /* Frameworks */,
+				1DBC8EFC209FEC0100F5D5F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DBC8F00209FEC0100F5D5F0 /* PBXTargetDependency */,
+			);
+			name = FinnaSphereUITests;
+			productName = FinnaSphereUITests;
+			productReference = 1DBC8EFE209FEC0100F5D5F0 /* FinnaSphereUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DBC8ED1209FEC0100F5D5F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Matias Ortiz";
+				TargetAttributes = {
+					1DBC8ED8209FEC0100F5D5F0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					1DBC8EF2209FEC0100F5D5F0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1DBC8ED8209FEC0100F5D5F0;
+					};
+					1DBC8EFD209FEC0100F5D5F0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 1DBC8ED8209FEC0100F5D5F0;
+					};
+				};
+			};
+			buildConfigurationList = 1DBC8ED4209FEC0100F5D5F0 /* Build configuration list for PBXProject "finnasphere" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1DBC8ED0209FEC0100F5D5F0;
+			productRefGroup = 1DBC8EDA209FEC0100F5D5F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1DBC8ED8209FEC0100F5D5F0 /* FinnaSphere */,
+				1DBC8EF2209FEC0100F5D5F0 /* FinnaSphereTests */,
+				1DBC8EFD209FEC0100F5D5F0 /* FinnaSphereUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1DBC8ED7209FEC0100F5D5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC8EE8209FEC0100F5D5F0 /* Main.storyboard in Resources */,
+				1DBC8EDF209FEC0100F5D5F0 /* GameScene.sks in Resources */,
+				1DA0A96820A32FB000060EFF /* Info.plist in Resources */,
+				1DBC8EEA209FEC0100F5D5F0 /* Assets.xcassets in Resources */,
+				1DBC8EED209FEC0100F5D5F0 /* LaunchScreen.storyboard in Resources */,
+				1DB2797D20A338A000EE17AF /* GameSceneLaby.sks in Resources */,
+				1DBC8EE1209FEC0100F5D5F0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC8EF1209FEC0100F5D5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC8EFC209FEC0100F5D5F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DBC8ED5209FEC0100F5D5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC8EE3209FEC0100F5D5F0 /* GameScene.swift in Sources */,
+				1DBC8EE5209FEC0100F5D5F0 /* GameViewController.swift in Sources */,
+				1DB2797F20A339CE00EE17AF /* GameSceneLaby.swift in Sources */,
+				1DBC8EDD209FEC0100F5D5F0 /* AppDelegate.swift in Sources */,
+				1DB2798120A33BFD00EE17AF /* LabyViewController.swift in Sources */,
+				1D82DABF20A1C2B50015B4AB /* finnamenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC8EEF209FEC0100F5D5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC8EF8209FEC0100F5D5F0 /* FinnaSphereTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DBC8EFA209FEC0100F5D5F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DBC8F03209FEC0100F5D5F0 /* FinnaSphereUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DBC8EF5209FEC0100F5D5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DBC8ED8209FEC0100F5D5F0 /* FinnaSphere */;
+			targetProxy = 1DBC8EF4209FEC0100F5D5F0 /* PBXContainerItemProxy */;
+		};
+		1DBC8F00209FEC0100F5D5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1DBC8ED8209FEC0100F5D5F0 /* FinnaSphere */;
+			targetProxy = 1DBC8EFF209FEC0100F5D5F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1DBC8EE6209FEC0100F5D5F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DBC8EE7209FEC0100F5D5F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1DBC8EEB209FEC0100F5D5F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DBC8EEC209FEC0100F5D5F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DBC8F05209FEC0100F5D5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1DBC8F06209FEC0100F5D5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1DBC8F08209FEC0100F5D5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4LC4TD9QD;
+				INFOPLIST_FILE = "$(SRCROOT)/FinnaSphereUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tropisounds.finnasphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1aafc38b-c9e0-478f-aa6c-bf60d1ef297b";
+				PROVISIONING_PROFILE_SPECIFIER = finnaspheredevelopment;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1DBC8F09209FEC0100F5D5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = V4LC4TD9QD;
+				INFOPLIST_FILE = "$(SRCROOT)/FinnaSphereUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tropisounds.finnasphere;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1aafc38b-c9e0-478f-aa6c-bf60d1ef297b";
+				PROVISIONING_PROFILE_SPECIFIER = finnaspheredevelopment;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1DBC8F0B209FEC0100F5D5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinnaSphereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FinnaFjortnite.FinnaSphereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinnaSphere.app/FinnaSphere";
+			};
+			name = Debug;
+		};
+		1DBC8F0C209FEC0100F5D5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinnaSphereTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FinnaFjortnite.FinnaSphereTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinnaSphere.app/FinnaSphere";
+			};
+			name = Release;
+		};
+		1DBC8F0E209FEC0100F5D5F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinnaSphereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FinnaFjortnite.FinnaSphereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinnaSphere;
+			};
+			name = Debug;
+		};
+		1DBC8F0F209FEC0100F5D5F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FinnaSphereUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = FinnaFjortnite.FinnaSphereUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinnaSphere;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DBC8ED4209FEC0100F5D5F0 /* Build configuration list for PBXProject "finnasphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC8F05209FEC0100F5D5F0 /* Debug */,
+				1DBC8F06209FEC0100F5D5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBC8F07209FEC0100F5D5F0 /* Build configuration list for PBXNativeTarget "FinnaSphere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC8F08209FEC0100F5D5F0 /* Debug */,
+				1DBC8F09209FEC0100F5D5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBC8F0A209FEC0100F5D5F0 /* Build configuration list for PBXNativeTarget "FinnaSphereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC8F0B209FEC0100F5D5F0 /* Debug */,
+				1DBC8F0C209FEC0100F5D5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DBC8F0D209FEC0100F5D5F0 /* Build configuration list for PBXNativeTarget "FinnaSphereUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DBC8F0E209FEC0100F5D5F0 /* Debug */,
+				1DBC8F0F209FEC0100F5D5F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DBC8ED1209FEC0100F5D5F0 /* Project object */;
+}
